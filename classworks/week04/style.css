@@ -1,0 +1,26 @@
+header {
+    height: 150px;
+    width: 70%;
+    border: 5px solid blue;
+    background-color: beige;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.body {
+    min-height: 350px;
+    width: 70%;
+    border: 5px solid blue;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 50px;
+    width: 70%;
+    border: 5px solid blue;
+    background-color: burlywood;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
