@@ -4,24 +4,20 @@
         $paths = explode("/", $clickedFile);
         $file_name = explode(".", end($paths));
     }
-
-    // if(isset($_POST['write_file'])) {
-    //     if($clickedFile) {
-    //         $file = fopen($clickedFile, "w");
-    //         fwrite($file, $_POST['file_content']);
-    //         fclose($file);
-    //     } else {
-    //         $file_path = $_SESSION['folder']."/".$_POST['file_name'].".txt";
-    //         $file = fopen($file_path, "w");
-    //         fwrite($file, $_POST['file_content']);
-    //         fclose($file);
-    //     }
-    // }
 ?>
 
 <div class="overlay">
     <form method="POST">
-        <h2>Create File</h2>
+        <h2>Create File or Folder</h2>
+        <div class="form-row">
+            <label for="file_or_folder">
+                <span>Choose</span><br>
+                <span>File</span>
+                <input type="radio" name="file_or_folder" value="file" checked="<?= $is_file_clicked ?>">
+                <span>or Folder</span>
+                <input type="radio" name="file_or_folder" value="folder">
+            </label>
+        </div>
         <div class="form-row">
             <label for="file_name">File name</label>
             <!-- <input type="text" name="file_name" value="<?= $_SESSION['file'] ?>"> -->
@@ -46,7 +42,7 @@
         ?>
         </div>
         <div class="form-row">
-            <input type="submit" value="Create" name="write_file">
+            <input type="submit" value="Create" name="write_file_or_folder">
         </div>
     </form>
 </div>
