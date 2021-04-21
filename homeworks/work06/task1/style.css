@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+    color: #d8f0f2;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    background-color: #305292;
+}
+
+header h1 { margin: 0; }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.forms-stuff {
+    margin: 20px 0;
+}
+
+.form-toggler {
+    width: auto;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #305292;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.form-toggler:hover {
+    color: #3564bb;
+}
+
+.forms-wrapper { display: none; }
+.forms-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 550px;
+    margin: 0px auto;
+    padding: 1.1em;
+    border: 2px solid #8fc5f7;
+    border-radius: 8px;
+    /* background-color: #8fc5f7; */
+    color: #333; 
+    /* box-shadow: -1px 2px 10px -10px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0px 15px -14px #305292;
+}
+
+form .form-row:nth-child(3) {
+    height: 200px;
+}
+
+.errors {
+    color: red;
+}
+
+form h2 {
+    margin: 0;
+    text-align: center;
+}
+
+form .form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border: 1px solid #d8f0f2;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3564bb;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #305292;
+}
+
+.file {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3564bb;
+}
+
+.file:hover {
+    background-color: rgb(212, 227, 241);
+}
+
+.file a {
+    text-decoration: none;
+    color: #305292;
+}
+
+span {
+    cursor: default;
+    font-weight: 600;
+}
+.controls span { margin-left: 10px; }
+
+.download, .delete { cursor: pointer; }
+.read a { color: #5cb85c; }
+.edit a { color: #f0ad4e; }
+.delete { color: #d63f39 ; }

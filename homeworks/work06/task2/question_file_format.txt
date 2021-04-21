@@ -1,0 +1,24 @@
+What does PHP stand for?
+---
+-Personal Protocol
+---
++PHP: Hypertext Prepocessor
+---
+-Private Home Page
+===
+How do you write "Hello World" in PHP?
+---
++echo "Hello World";
+---
+-"Hello World";
+---
+-write("Hello World");
+===
+All variables in php start with which symbol?
+---
++$
+---
+-&
+---
+-!
+===
