@@ -1,0 +1,12 @@
+.menu-wrapper .menu {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.menu-wrapper {
+    border: 2px solid #8fc5f7;
+}
