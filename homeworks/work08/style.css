@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0;
+    color: #d8f0f2;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    background-color: #305292;
+}
+
+header h1 { margin: 0; }
+
+form {
+    width: 550px;
+    margin: 30px auto;
+    padding: 1.1em;
+    border: 2px solid #8fc5f7;
+    border-radius: 8px;
+    color: #333; 
+    box-shadow: 0px 0px 15px -14px #305292;
+}
+
+.errors {
+    color: red;
+}
+
+form h2 {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="number"],
+input[type="date"],
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d8f0f2;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3564bb;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+input.small-input {
+    width: 57.5%;
+    display: inline;
+}
+
+input[type="submit"]:hover {
+    background-color: #305292;
+}
+
+.rows-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row-50 {
+    width: 48%;
+}
